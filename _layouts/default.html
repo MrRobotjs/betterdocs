@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		{% seo %}
+		{% gtm head %}
 
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -28,6 +29,7 @@
 		{% endif %}
 	</head>
 	<body>
+		{% gtm body %}
 		<header>
 			<div class="container">
 				<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo.html %} <span>{{ site.title }}</span></a></div>

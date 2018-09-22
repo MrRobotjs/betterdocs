@@ -1,12 +1,17 @@
 # ----
-# Site
+# Site values
 
 title: BetterDocs
 url: "#"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
-snipcart_key: "NWNjOWZhYjctYmE1ZS00MDM3LThkNjUtZmE5M2NiMTU1NzAwNjM2MjYzNTE1MzM5ODg1ODkw"
+snipcart_key: ""
+
+# Values for the jekyll-google-tag-manager gem (https://github.com/t-richards/jekyll-google-tag-manager)
+google:
+  tag_manager:
+    container_id: GTM-NG6W33N
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -34,29 +39,19 @@ collections:
   themes:
     _hide_content: true
     output: true
-  plugins:
+  pluginss:
     _hide_content: true
     output: true
 
+# Link style. https://site.com/page.html --> https://site.com/page/
 permalink: pretty
 
+# Values for the jekyll-sitemap gem (https://github.com/jekyll/jekyll-sitemap)
 defaults:
   -
     scope:
       path: ""
       type: "products"
-    values:
-      layout: "product"
-  -
-    scope:
-      path: ""
-      type: "themes"
-    values:
-      layout: "product"
-  -
-    scope:
-      path: ""
-      type: "pluginss"
     values:
       layout: "product"
   -
@@ -77,6 +72,7 @@ jekyll-archives:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-google-tag-manager
 
 exclude:
   - Gemfile
