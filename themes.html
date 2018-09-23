@@ -12,18 +12,18 @@ layout: default
 			<h2>Themes</h2>
 			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
 			<ul class="product-list">
-				{% for product in site.products %}
+				{% for theme in site.themes %}
 					<li>
 						<div class="styles">
-						{% include product-styles.html product=product %}
+						{% include product-styles.html product=theme %}
 						<div class="product-details">
-							<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
+							<h4><a href="{{ theme.url }}">{{ theme.name }}</a></h4>
 							<div class="product-description">
-								{{ product.description_markdown | truncate: 45 | markdownify }}
+								{{ theme.description_markdown | truncate: 45 | markdownify }}
 							</div>
-							{% if product.price == nil %}
+							{% if theme.price == nil %}
 							{% else %}
-							<p>${{ product.price }}</p>
+							<p>${{ theme.price }}</p>
 							{% endif %}
 						</div>
 						</div>

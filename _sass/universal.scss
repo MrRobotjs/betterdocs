@@ -14,14 +14,12 @@
         border-radius: 2px;
         display: flex;
         flex-direction: column;
+        padding: 15px;
         .product-header {
             border-radius: 2px 2px 0px 0px;
             color: #6b6b6b;
-            padding: 10px 0px;
             flex-basis: 8%;
             border-bottom: 1px solid #cacaca;
-            width: calc(100% - 30px);
-            margin: 0 auto;
             h3 {
                 text-align: left;
                 margin: unset;
@@ -29,7 +27,7 @@
         }
         .product-description {
             flex-basis: 66%;
-            padding: 15px;
+            padding: 15px 0px;
             p {
                 margin: unset;
             }
@@ -37,6 +35,7 @@
         .button-wrapper {
             align-content: space-between;
             align-self: center;
+            display: -webkit-box;
             .flex-button {
                 flex-basis: 16%;
                 display: flex;
