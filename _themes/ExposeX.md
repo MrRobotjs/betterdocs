@@ -22,6 +22,6 @@ style: dark
 styles:
   - name: Black
     color: '#000000'
-    image: https://imgur.com/ZXUH9EY 
+    image: https://imgur.com/ZXUH9EY.png
 layout: product
 ---
