@@ -2,7 +2,7 @@
 # Site values
 
 title: BetterDocs
-url: "#"
+url: "https://betterdocs.us"
 baseurl:
 #google_analytics_key: UA-65593962-3
 #snipcart_key: ""
@@ -14,7 +14,7 @@ google:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: A Discord enhancement project.
+description: A Discord enhancement project. Free quality Themes and Plugins for Discord and easy installation instructions for BetterDiscord and more!
 author:
   name: Chris
   email: betterdocs@support.com
