@@ -4,9 +4,8 @@
 title: BetterDocs
 url: "#"
 baseurl:
-google_analytics_key: UA-65593962-3
-google_maps_javascript_api_key:
-snipcart_key: ""
+#google_analytics_key: UA-65593962-3
+#snipcart_key: ""
 
 # Values for the jekyll-google-tag-manager gem (https://github.com/t-richards/jekyll-google-tag-manager)
 google:
@@ -22,9 +21,9 @@ author:
   twitter: BetterDocs # twitter username without the @ symbol
   phone: ""
 social:
-  name: Fur Template
+  name: Chris
   links:
-    - https://github.com/CloudCannon/fur-jekyll-template
+    - https://github.com/MrRobotjs
 
 # -----
 # Build
