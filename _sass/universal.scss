@@ -94,6 +94,7 @@
 }
 .hero.flex-row {
     justify-content: space-between;
+    display: block;
 }
 .hero.flex-row h2 {
     font-size: 2.5em;
@@ -120,6 +121,9 @@
 }
 .content.no-padding section {
     padding: unset;
+}
+.card-container.flex-row {
+    display: block
 }
 .card-container {
     justify-content: space-evenly;
