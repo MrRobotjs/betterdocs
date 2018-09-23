@@ -33,6 +33,31 @@
 			line-height: 2em;
 		}
 	}
+	.hero-image {
+		flex-basis: 50%;
+		box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.6);
+		transform: translate(0px, 0px);
+		animation-duration: 3s;
+  		animation-name: float;
+  		animation-iteration-count: infinite;
+		.direct-image {
+			height: 100%;
+			width: 100%;
+			border-radius: 2px;
+		}
+	}
+
+	@keyframes float {
+		0% {
+			transform: translate(0,0);
+		}
+		50% {
+			transform: translate(0px,-5px);
+		}
+		100% {
+			transform: translate(0,0);
+		}
+	}
 
 	@media (min-width: 500px) {
 		h2 {
