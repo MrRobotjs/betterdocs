@@ -19,9 +19,9 @@ style: dark
 
 [//]: # (Style must be lowercase i.e dark/light)
 
+tags:
 styles:
   - name: Black
     color: '#000000'
-    image: https://imgur.com/ZXUH9EY.png
 layout: product
 ---

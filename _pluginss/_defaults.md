@@ -1,15 +1,12 @@
 ---
 title: Plugin
-
-[//]: # (Name/Title must be the same)
-
 author: Author
-github: https://github.com/
 description_markdown: >-
   A Description
+github: https://github.com/
 download: https://github.com/
 support: 
-styles:
-  - image: https://imgur.com
+preview:
+tags:
 layout: product
 ---

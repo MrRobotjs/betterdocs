@@ -152,7 +152,7 @@
 		.button-wrapper {
             align-content: space-between;
             align-self: center;
-			display: -webkit-box;
+			display: -webkit-box !important;
 			
             .flex-button {
                 flex-basis: 16%;

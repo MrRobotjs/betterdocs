@@ -5,7 +5,9 @@ layout: default
 	<section class="page">
 		<div class="container">
 			<div class="product-container" id="product">
+				{% if page.preview %}
 				{% include product-styles.html product=page %}
+				{% endif %}
 				<div class="product-details" id="add">
 					<div class="product-header">
 						<h3>Description</h3>
