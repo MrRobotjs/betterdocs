@@ -8,3 +8,14 @@
         display: flex;
     }
 }
+
+.product-container {
+    .product-details {
+        @media #{$above-tablet} {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin-top: unset;
+        }
+    }
+}

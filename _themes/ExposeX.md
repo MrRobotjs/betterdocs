@@ -1,5 +1,4 @@
 ---
-name: Expose X
 title: Expose X
 
 [//]: # (Name/Title must be the same)
@@ -9,7 +8,7 @@ github: https://github.com/CorbsEditor
 description_markdown: >-
   Brings a sexy translucent look to Discord with customizable options!  
 download: https://betterdiscord.net/ghdl?id=1958
-preview: https://rawgit.com/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/ExposeXRaw.theme.css
+demo: https://rawgit.com/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/ExposeXRaw.theme.css
 
 [//]: # (Preview must be a RAW github (or rawgit) link to the theme)
 

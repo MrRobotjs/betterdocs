@@ -1,5 +1,4 @@
 ---
-name: Plugin
 title: Plugin
 
 [//]: # (Name/Title must be the same)

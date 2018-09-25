@@ -1,5 +1,4 @@
 ---
-name: Theme
 title: Theme
 
 [//]: # (Name/Title must be the same)
@@ -9,7 +8,7 @@ github: https://github.com/
 description_markdown: >-
   A Description
 download: https://github.com/
-preview: https://rawgit.com/
+demo: https://rawgit.com/
 
 [//]: # (Preview must be a RAW github (or rawgit) link to the theme)
 

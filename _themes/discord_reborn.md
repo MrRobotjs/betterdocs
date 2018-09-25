@@ -1,12 +1,11 @@
 ---
-name: Discord Reborn
 title: Discord Reborn
 author: Omniscient
 github: https://github.com/0mniscient/
 description_markdown: >-
   A nice sleek transparent theme.
 download: https://github.com/MrRobotjs/Discord-Reborn
-preview: https://rawgit.com/0mniscient/Discord-Themes/master/Themes/Discord%20Reborn.theme.css
+demo: https://rawgit.com/0mniscient/Discord-Themes/master/Themes/Discord%20Reborn.theme.css
 support: https://discord.gg/D4cAkXX
 type: theme
 style: dark

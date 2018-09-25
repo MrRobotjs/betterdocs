@@ -1,5 +1,4 @@
 ---
-name: Plugin
 title: Plugin
 author: Author
 github: https://github.com/
