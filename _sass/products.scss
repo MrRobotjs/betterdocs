@@ -71,6 +71,10 @@
 		display: flex;
 		flex-direction: column;
 
+		.img-preview {
+			border-radius: 3px 3px 0px 0px;
+		}
+
         .style-picker {
 			position: initial;
 			padding-left: 24px;
