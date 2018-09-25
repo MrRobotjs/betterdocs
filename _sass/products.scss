@@ -81,6 +81,12 @@
 		margin-left: 40px;
 	}
 
+	.button {
+		.btn {
+			display: -webkit-inline-box;
+		}
+	}
+
 	.product-details {
 		flex: 2 1 500px;
 		text-align: left;
