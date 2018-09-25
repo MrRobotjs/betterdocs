@@ -19,7 +19,7 @@ layout: default
 						<div class="product-details">
 							<h4><a href="{{ plugins.url }}">{{ plugins.title }}</a></h4>
 							<div class="product-description">
-								{{ plugins.description_markdown | truncate: 45 | markdownify }}
+								{{ plugins.description_markdown | truncate: 150 | markdownify }}
 							</div>
 							{% if plugins.price == nil %}
 							{% else %}
