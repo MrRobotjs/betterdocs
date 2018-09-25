@@ -49,7 +49,7 @@ download: https://github.com/rauenzi/BetterDiscordApp/releases
 <div class="content no-padding" id="products">
 	<section>
 		<div class="container">
-			<h2><a href="{{ site.url }}/themes/"></a>Themes</a></h2>
+			<h2><a href="{{ site.url }}/themes/">Themes ({{ site.themes | size }})</a></h2>
 			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
 			<ul class="product-list">
 				{% for theme in site.themes %}
@@ -73,7 +73,7 @@ download: https://github.com/rauenzi/BetterDiscordApp/releases
 				<li></li>
 				<li></li>
 			</ul>
-			<h2><a href="{{ site.url }}/plugins/">Plugins</a></h2>
+			<h2><a href="{{ site.url }}/plugins/">Plugins ({{ site.pluginss | size }})</a></h2>
 			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
 			<ul class="product-list">
 				{% for plugins in site.pluginss %}
