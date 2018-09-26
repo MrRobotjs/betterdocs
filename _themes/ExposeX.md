@@ -13,8 +13,8 @@ images:
   - name: ExposeX Preview
     image: https://imgur.com/ZXUH9EY.png
   - name:  Custom Background
-    image: https://raw.githubusercontent.com/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Previews/CustomBackground.png
+    image: https://i.imgur.com/Ra6hfBB.jpg
    - name: Custom Colors
-    image: https://raw.githubusercontent.com/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Previews/CustomColors.png
+    image: https://i.imgur.com/231yHKP.png
 layout: product
 ---
