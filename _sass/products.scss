@@ -89,6 +89,11 @@
 
 	.product-details {
 		padding: 1px 15px 15px 15px;
+		h4 {
+			a {
+				color: $brand-color;
+			}
+		}
 	}
 
 	.styles {
