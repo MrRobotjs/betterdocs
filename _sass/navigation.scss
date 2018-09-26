@@ -18,6 +18,62 @@ header {
 	background: linear-gradient(135deg, $brand-color 0%, $brand-color-2 100%);
 	position: relative;
 
+	> .container {
+		position: fixed;
+		width: 100%;
+		top: 0px;
+		z-index: 100;
+		max-width: 100%;
+		padding: 0px 0px 0px 10px;
+		transition: .2s linear background-color, .2s linear box-shadow;
+
+		@media #{$mid-point} {
+			padding: 15px 0px 15px 15px;
+		}
+
+		nav {
+			margin-top: 8px;
+		}
+
+		.company-name {
+			top: 11px;
+
+			@media #{$mid-point} {
+				top: 4px;
+			}
+			svg {
+				height: 35px;
+				width: 35px;
+				transition: .2s linear width, .2s linear height;
+			}
+			
+			span {
+				font-size: 25px;
+			}
+		}
+	}
+
+	> .container.navbar-scroll {
+		background-color: $brand-color;
+		box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.3);
+
+		nav {
+			margin-top: 0px;
+		}
+
+		.company-name {
+
+			svg {
+				height: 25px;
+				width: 25px;
+			}
+
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+
 	p {
 		margin: 0;
 	}
@@ -138,7 +194,7 @@ nav {
 			border: 1px solid rgba(255,255,255, .4);
 			position: absolute;
 			right: 20px;
-			top: -2px;
+			top: 12px;
 			font-size: .8em;
 			transition: border .3s ease;
 

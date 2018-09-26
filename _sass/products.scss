@@ -208,8 +208,8 @@
 	}
 
 	.product-description {
-		p {
-			font-size: 1.1rem;
+		p, ul {
+			font-size: 1rem;
 		}
 	}
 
@@ -256,7 +256,7 @@
 				&:hover {
 					background-color: #f1f1f1;
 				}
-				
+
 				&:focus {
 					background-color: #d4d4d4;
 				}
