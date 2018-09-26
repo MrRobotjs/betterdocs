@@ -4,7 +4,6 @@ author: Author
 github: https://github.com/
 description_markdown: >-
   A Description
-preview: https://imgur.com/upload
 download: https://github.com/
 demo: https://rawgit.com/
 
@@ -17,8 +16,11 @@ style: dark
 [//]: # (Style must be lowercase i.e dark/light)
 
 tags:
-styles:
-  - name: Black
-    color: '#000000'
+images:
+  - name: Image Name
+    image: https://imgur.com/upload
+  - name: Image Name
+    image: https://imgur.com/upload
+    
 layout: product
 ---

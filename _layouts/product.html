@@ -5,8 +5,29 @@ layout: default
 	<section class="page">
 		<div class="container">
 			<div class="product-container" id="product">
-				{% if page.preview %}
-				{% include product-styles.html product=page %}
+				{% if page.images %}
+				<div class="styles">
+						{% for style in page.images %}
+							<div class="style" data-item-id="{{ forloop.index }}" {% unless forloop.first %}style="display: none"{% endunless %}>
+								<a href="{{ page.url }}">
+									<img alt="{{ style.name }}" title="{{ style.name }}" class="img-preview" src="{{ style.image }}">
+								</a>
+							</div>
+						{% endfor %}
+								
+						<div class="flex-row">
+						<div class="style-picker">
+							{% for style in page.images %}
+							<div style="background-color: #e6e6e6" data-item-id="{{ forloop.index }}"></div>
+							{% endfor %}
+						</div>
+						{% if page.demo %}
+						<div class="button flex-button">
+							<a href="{{ site.url }}/demo/{{ page.style }}/?theme={{ page.demo }}" target="blank" class="btn">Demo</a>
+						</div>
+						{% endif %}
+						</div>
+					</div>
 				{% endif %}
 				<div class="product-details" id="add">
 					<div class="product-header">

@@ -6,7 +6,9 @@ description_markdown: >-
 github: https://github.com/XFoxPrower/
 download: https://github.com/XFoxPrower/Quick-Open-Link
 support: https://github.com/XFoxPrower/Quick-Open-Link/issues
-preview:
 tags:
+images:
+  - name: 
+    image: 
 layout: product
 ---

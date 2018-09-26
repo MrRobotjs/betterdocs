@@ -4,7 +4,6 @@ author: Vaxu
 github: https://github.com/Vaxuuu/
 description_markdown: >-
   A dark purple theme that you can customize! Not compatible with compact mode and light mode.
-preview: https://i.imgur.com/iOOg0Rj.png
 download: https://github.com/Vaxuuu/Indigo-Theme
 demo: https://cdn.rawgit.com/Vaxuuu/Indigo-Theme/master/Indigo.theme.css
 
@@ -17,8 +16,8 @@ style: dark
 [//]: # (Style must be lowercase i.e dark/light)
 
 tags:
-styles:
-  - name: Black
-    color: '#000000'
+images:
+  - name: Indigo Preview
+    image: https://i.imgur.com/iOOg0Rj.png
 layout: product
 ---

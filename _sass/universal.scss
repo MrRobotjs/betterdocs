@@ -26,14 +26,6 @@
 .margin-left-unset {
     margin-left: unset;
 }
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-.flex-row {
-    display: flex !important;
-    flex-direction: row;
-}
 .hero.flex-row {
     justify-content: space-between;
     display: block;
@@ -120,4 +112,12 @@
         position: relative;
         top: 2px;
     }
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
 }

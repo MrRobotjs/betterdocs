@@ -4,7 +4,6 @@ author: JimmyHere
 github: https://github.com/AltenGD/
 description_markdown: >-
   This theme is for the third year anniversery of Discord!
-preview: https://i.imgur.com/P8hIGRi.png
 download: https://github.com/JimmyHere/Blurple
 demo: https://cdn.rawgit.com/JimmyHere/Blurple/master/Blurple.theme.css
 
@@ -17,8 +16,8 @@ style: dark
 [//]: # (Style must be lowercase i.e dark/light)
 
 tags:
-styles:
-  - name: Black
-    color: '#000000'
+images:
+  - name: Blurple Preview
+    image: https://i.imgur.com/P8hIGRi.png
 layout: product
 ---

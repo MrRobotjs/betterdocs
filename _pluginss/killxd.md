@@ -6,7 +6,9 @@ description_markdown: >-
 github: https://github.com/Arashiryuu/
 download: https://github.com/Arashiryuu/crap/blob/master/ToastIntegrated/KillXD/KillXD.plugin.js
 support: https://github.com/Arashiryuu/crap/issues
-preview:
 tags:
+images:
+  - name: 
+    image: 
 layout: product
 ---

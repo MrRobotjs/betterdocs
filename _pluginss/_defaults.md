@@ -6,7 +6,11 @@ description_markdown: >-
 github: https://github.com/
 download: https://github.com/
 support: 
-preview:
 tags:
+images:
+  - name: Image Name
+    image: https://imgur.com/upload
+  - name: Image Name
+    image: https://imgur.com/upload
 layout: product
 ---

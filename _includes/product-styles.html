@@ -1,8 +1,8 @@
 <div class="styles">
-	{% for style in include.product.styles %}
+	{% for style in include.product.images %}
 		<div class="style" data-item-id="{{ forloop.index }}" {% unless forloop.first %}style="display: none"{% endunless %}>
 			<a href="{{ include.product.url }}">
-				<img class="img-preview" src="{{ include.product.preview }}">
+				<img alt="{{ style.name }}" title="{{ style.name }}" class="img-preview" src="{{ style.image }}">
 			</a>
 		</div>
 	{% endfor %}
@@ -10,7 +10,7 @@
 	<div class="flex-row">
 	<div class="style-picker">
 		{% for style in include.product.styles %}
-		<div style="background-color: {{ style.color }}" data-item-id="{{ forloop.index }}"></div>
+		<div style="background-color: #e6e6e6" data-item-id="{{ forloop.index }}"></div>
 		{% endfor %}
 	</div>
 	{% if page.demo %}
