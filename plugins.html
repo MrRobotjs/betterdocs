@@ -18,6 +18,7 @@ layout: default
 						<!-- {% include product-styles.html product=plugins %} -->
 						<div class="product-details">
 							<h4><a href="{{ plugins.url }}">{{ plugins.title }}</a></h4>
+							<h5>by <b>{{ plugins.author }}</b></h5>
 							<div class="product-description">
 								{{ plugins.description_markdown | truncate: 150 | markdownify }}
 							</div>
