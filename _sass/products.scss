@@ -1,5 +1,11 @@
 .page {
 	.styles {
+
+	&:hover {
+		transform: unset;
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	}
+
 		.style-picker {
 			padding: 10px 0px 10px 7px;
 			flex: 1;
