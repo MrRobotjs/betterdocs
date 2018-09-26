@@ -9,7 +9,7 @@ layout: default
 				<div class="styles">
 						{% for style in page.images %}
 							<div class="style" data-item-id="{{ forloop.index }}" {% unless forloop.first %}style="display: none"{% endunless %}>
-								<a href="{{ page.url }}">
+								<a href="{{ style.image }}" alt="{{ style.name }}" title="{{ style.name }}">
 									<img alt="{{ style.name }}" title="{{ style.name }}" class="img-preview" src="{{ style.image }}">
 								</a>
 							</div>
