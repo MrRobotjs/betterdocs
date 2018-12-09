@@ -16,7 +16,7 @@ description_markdown: >-
   - Hide unnecessary scrollbars
   - No light elements
 download: https://github.com/ObserverOfTime/DiscordThemes/tree/master/NewNihilism
-demo: https://cdn.rawgit.com/ObserverOfTime/DiscordThemes/master/NewNihilism/dist/NewNihilism.theme.css
+demo: https://cdn.jsdelivr.net/gh/ObserverOfTime/DiscordThemes@master/NewNihilism/dist/NewNihilism.theme.css
 support: https://github.com/ObserverOfTime/DiscordThemes/issues
 style: dark
 tags:

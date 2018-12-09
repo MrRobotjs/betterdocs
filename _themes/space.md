@@ -5,7 +5,7 @@ description_markdown: >-
    lets leave #earth and go to #space 
 github: https://github.com/gco360/
 download: https://github.com/gco360/space-theme
-demo: https://cdn.rawgit.com/gco360/space-theme/master/space.theme.css
+demo: https://cdn.jsdelivr.net/gh/gco360/space-theme@master/space.theme.css
 support: https://discord.gg/6fXRKyx
 style: dark
 tags:
