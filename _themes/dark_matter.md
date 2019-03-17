@@ -12,7 +12,7 @@ download: >-
 auto: true
 support: 'https://github.com/cosmicsalad/Discord-Themes-and-Plugins/issues'
 demo: >-
-  https://cdn.rawgit.com/cosmicsalad/Discord-Themes-and-Plugins/master/themes/DarkMatter/DarkMatter.theme.css
+  https://cdn.jsdelivr.net/gh/cosmicsalad/Discord-Themes-and-Plugins@master/themes/DarkMatter/DarkMatter.theme.css
 style: dark
 ghcommentid: 14
 date: 2018-10-25T19:47:15.381Z

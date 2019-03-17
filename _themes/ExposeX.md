@@ -15,7 +15,7 @@ download: 'https://betterdiscord.net/ghdl?id=1958'
 auto: false
 support: 'https://discord.gg/Pdz7jAH'
 demo: >-
-  https://rawgit.com/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/ExposeXRaw.theme.css
+  https://cdn.jsdelivr.net/gh/CorbsEditor/Themes-for-BetterDiscord@master/Expose%20X/ExposeXRaw.theme.css
 style: dark
 ghcommentid: 6
 date: 2018-10-25T16:39:40.887Z

@@ -16,7 +16,7 @@ download: >-
 auto: true
 support: 'https://github.com/CapnKitten/Material-Discord/issues'
 demo: >-
-  https://cdn.rawgit.com/CapnKitten/Material-Discord/master/Material-Discord.theme.css
+  https://cdn.jsdelivr.net/gh/CapnKitten/Material-Discord@master/Material-Discord.theme.css
 style: dark
 ghcommentid: 16
 date: 2018-10-25T19:49:07.011Z

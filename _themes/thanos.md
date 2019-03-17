@@ -5,7 +5,7 @@ description_markdown: >-
    infinity war set one theme
 github: https://github.com/gco360/
 download: https://github.com/gco360/thanos-theme
-demo: https://cdn.rawgit.com/gco360/thanos-theme/master/thanos.theme.css
+demo: https://cdn.jsdelivr.net/gh/gco360/thanos-theme@master/thanos.theme.css
 support: https://discord.gg/6fXRKyx
 style: dark
 tags:

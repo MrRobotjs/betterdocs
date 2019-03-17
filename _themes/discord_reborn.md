@@ -5,7 +5,7 @@ github: https://github.com/0mniscient/
 description_markdown: >-
   A nice sleek transparent theme.
 download: https://github.com/MrRobotjs/Discord-Reborn
-demo: https://rawgit.com/0mniscient/Discord-Themes/master/Themes/Discord%20Reborn.theme.css
+demo: https://cdn.jsdelivr.net/gh/0mniscient/Discord-Themes@master/Themes/Discord%20Reborn.theme.css
 support: https://discord.gg/D4cAkXX
 style: dark
 tags:

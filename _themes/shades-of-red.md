@@ -5,7 +5,7 @@ github: https://github.com/trueprominency/
 description_markdown: >-
   great colors of red collide in my first theme.
 download: https://github.com/trueprominency/Shades-of-Red-Theme
-demo: https://cdn.rawgit.com/trueprominency/Shades-of-Red-Theme/master/shades-of-red.theme.css
+demo: https://cdn.jsdelivr.net/gh/trueprominency/Shades-of-Red-Theme@master/shades-of-red.theme.css
 support: https://github.com/trueprominency/Shades-of-Red-Theme/issues
 style: dark
 tags:
